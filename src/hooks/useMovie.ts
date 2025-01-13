@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useGet } from './useGet';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -16,6 +17,10 @@ export function useMovie() {
     event.preventDefault();
     get(`https://www.omdbapi.com/?s=${searchInput}&apikey=2f71c48f&`);
   };
+
+  useEffect(() => {
+    get(`https://www.omdbapi.com/?s='fast'&apikey=2f71c48f&`);
+  }, []);
 
   return {
     handleInputChange,
