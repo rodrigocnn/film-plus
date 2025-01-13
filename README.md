@@ -1,6 +1,8 @@
 # My Movies
 
-My Movies is an interactive front-end application that allows users to search for movies quickly and easily. Enter a keyword to discover movies, series, and other related productions. The application fetches detailed information such as titles, synopses, cast, and release years using the [OMDb API](https://www.omdbapi.com/).
+Film Plus is an interactive front-end application that allows users to search for movies quickly and easily. Enter a keyword to discover movies, series, and other related productions. The application fetches detailed information such as titles, synopses, cast, and release years using the [OMDb API](https://www.omdbapi.com/).
+
+![Home Screen](src/assets/home.png)
 
 ## Features
 
@@ -24,13 +26,13 @@ Ensure you have the following installed on your system:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/my-movies.git
+   git clone https://github.com/rodrigocnn/film-plus.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd my-movies
+   cd fimple-plus
    ```
 
 3. Install dependencies:
